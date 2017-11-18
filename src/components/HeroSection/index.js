@@ -73,6 +73,7 @@ const Logo = styled.img`width: 100px;`;
 export default function HeroSection() {
   return (
     <Container>
+      <ScheduleDemoModal isOpen={true}></ScheduleDemoModal>
       <Header />
       <Hero>
         <TitleHeading>Hello. I am Murcul.</TitleHeading>
