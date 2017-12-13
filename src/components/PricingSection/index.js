@@ -9,6 +9,10 @@ import redCrossSrc from "../../assets/red_cross.svg";
 const Section = styled.div`
   width: 80%;
   margin: auto;
+
+  @media (max-width: 375px){
+    width: 86%;
+  }
 `;
 
 const PricingContainer = styled.section`
