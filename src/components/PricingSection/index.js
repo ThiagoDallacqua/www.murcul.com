@@ -9,10 +9,6 @@ import redCrossSrc from "../../assets/red_cross.svg";
 const Section = styled.div`
   width: 80%;
   margin: auto;
-
-  @media (max-width: 375px){
-    width: 86%;
-  }
 `;
 
 const PricingContainer = styled.section`
@@ -47,6 +43,11 @@ const Cell = styled.td`
   border: 1px solid #eee;
   padding: 15px;
   text-align: center;
+
+  @media (max-width: 375px){
+    padding-left: 0;
+    padding-right: 0;
+  }
 `;
 
 const FeatureCell = styled.td`
@@ -55,6 +56,11 @@ const FeatureCell = styled.td`
   padding-bottom: 5px;
   background-color: #eee;
   text-align: left;
+
+  @media (max-width: 375px){
+    padding-left: 0;
+    padding-right: 0;
+  }
 `;
 
 const TitleCell = styled.th`
@@ -63,6 +69,11 @@ const TitleCell = styled.th`
   text-align: center;
   font-weight: bold;
   font-size: 18px;
+
+  @media (max-width: 375px){
+    padding-left: 0;
+    padding-right: 0;
+  }
 `;
 
 const Icon = styled.img`
