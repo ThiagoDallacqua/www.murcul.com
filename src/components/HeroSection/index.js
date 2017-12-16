@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet"
 import Header from "../Header";
 import Button from "../Button";
 import Section from "../Layout/Section";
@@ -72,6 +73,9 @@ export default function HeroSection() {
   return (
     <Container>
       <Header />
+      <Helmet>
+        <title>Murcul</title>
+      </Helmet>
       <Hero>
         <TitleHeading>Hello. I am Murcul.</TitleHeading>
         <Logos>
