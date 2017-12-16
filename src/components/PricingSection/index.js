@@ -43,6 +43,11 @@ const Cell = styled.td`
   border: 1px solid #eee;
   padding: 15px;
   text-align: center;
+
+  @media (max-width: 375px){
+    padding-left: 0;
+    padding-right: 0;
+  }
 `;
 
 const FeatureCell = styled.td`
@@ -51,6 +56,11 @@ const FeatureCell = styled.td`
   padding-bottom: 5px;
   background-color: #eee;
   text-align: left;
+
+  @media (max-width: 375px){
+    padding: 10px 0;
+    text-align: center;
+  }
 `;
 
 const TitleCell = styled.th`
@@ -59,6 +69,11 @@ const TitleCell = styled.th`
   text-align: center;
   font-weight: bold;
   font-size: 18px;
+
+  @media (max-width: 375px){
+    padding-left: 0;
+    padding-right: 0;
+  }
 `;
 
 const Icon = styled.img`
